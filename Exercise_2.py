@@ -34,7 +34,7 @@ def table(rows=-1,file="data/2021-09-14_party distribution_1_st_2021.csv"):
     
     # create new coloumns
     parties["percentages"] = percentages
-    parties["Above 4%"] = percentages>4 # column of booleans
+    parties["Above 4%"] = percentages>4 # vector of booleans
 
     # Make sure variable rows has a valid value
     if rows not in range(len(parties)): rows=len(parties)
@@ -48,7 +48,7 @@ table(4); table(7); table()
 # %% Section 2: Regex
 import re
 
-sentences =["AliA and Per and friends.",
+sentences =["Ali and Per and friends.",
             "Kari and Joe know each other.",
             "James has known Peter since school days."]
 

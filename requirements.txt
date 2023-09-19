@@ -5,4 +5,3 @@ scipy
 ipykernel
 sympy
 PyYAML
-json
