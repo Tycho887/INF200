@@ -1,0 +1,8 @@
+numpy
+matlpotlib
+pandas
+scipy
+ipykernel
+sympy
+PyYAML
+json
