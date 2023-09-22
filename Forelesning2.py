@@ -4,6 +4,7 @@ out = re.findall(r"\Ai", "I can see the red rose and the purple lilac")
 print(out)
 
 # \w* matches any number of word characters
+# \w matches any word character
 # \b matches a word boundary
 # \w*e\b matches any word ending with e
 # re.findall returns a list of all matches

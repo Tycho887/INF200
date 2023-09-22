@@ -6,7 +6,7 @@ Created on Tue Sep 19 15:34:12 2023
 """
 
 
-# %% Section 1: Counting votes
+#%% Task 1: Counting votes
 
 import pandas as pd
 import numpy as np
@@ -40,12 +40,17 @@ def table(rows=-1,file="data/2021-09-14_party distribution_1_st_2021.csv"):
     if rows not in range(len(parties)): rows=len(parties)
     
     # print sorted table with given number of rows
+
+    # last we want to de-group the data, and remove the party code as index
+
+    parties.reset_index(inplace=True)
+
     print(parties.sort_values(by=["Votes"], ascending=False).iloc[0:rows])
     
 # print table with 4, 7 and all rows
 table(4); table(7); table()
 
-# %% Section 2: Regex
+#%% Task 2: Regex
 import re
 
 sentences =["Ali and Per and friends.",
