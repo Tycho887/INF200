@@ -4,7 +4,8 @@ Created on Tue Sep 12 15:47:17 2023
 
 @author: Michael
 """
-
+from math import sqrt
+import scipy.stats as stats
 
 #%% Task 1: A Greeting
 
