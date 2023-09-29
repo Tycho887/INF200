@@ -1,3 +1,4 @@
-Per:24,12345678
-Kari:23,23456789
-Ole:24,34567891
+# student information in form name: age, phone number
+        Per:24,12345678
+        Kari:23,23456789
+        Ole:24,34567891
