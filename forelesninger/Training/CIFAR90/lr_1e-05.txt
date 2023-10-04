@@ -1,0 +1,2 @@
+epochs: 100
+learningrate: 1.0e-05
