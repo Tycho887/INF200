@@ -5,3 +5,5 @@ scipy
 ipykernel
 sympy
 PyYAML
+notebook
+pathlib
