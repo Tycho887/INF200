@@ -7,3 +7,5 @@ sympy
 PyYAML
 notebook
 pathlib
+tex
+nbconvert
