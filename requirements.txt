@@ -9,3 +9,5 @@ notebook
 pathlib
 tex
 nbconvert
+torch
+torchvision==0.15+cu118
